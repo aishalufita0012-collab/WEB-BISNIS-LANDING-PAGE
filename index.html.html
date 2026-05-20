@@ -29,7 +29,21 @@
     .card-hover:hover{
       transform:translateY(-10px);
     }
+
+    .gallery-hover{
+      overflow:hidden;
+      border-radius:24px;
+    }
+
+    .gallery-hover img{
+      transition:0.4s ease;
+    }
+
+    .gallery-hover:hover img{
+      transform:scale(1.08);
+    }
   </style>
+
 </head>
 
 <body class="text-gray-800">
@@ -49,6 +63,7 @@
       <a href="#menu" class="hover:text-amber-600">Menu</a>
       <a href="#keunggulan" class="hover:text-amber-600">Keunggulan</a>
       <a href="#gallery" class="hover:text-amber-600">Gallery</a>
+      <a href="#faq" class="hover:text-amber-600">FAQ</a>
       <a href="#testimoni" class="hover:text-amber-600">Testimoni</a>
 
     </div>
@@ -204,33 +219,8 @@
 </section>
 
 
-<!-- PAIN POINT -->
-<section class="py-24 bg-white">
-
-  <div class="max-w-5xl mx-auto px-6 text-center">
-
-    <span class="text-amber-700 font-bold uppercase tracking-widest">
-      Solusi Kuliner Nusantara
-    </span>
-
-    <h2 class="text-4xl font-bold mt-4 leading-tight">
-      Bosan Dengan Makanan
-      yang Rasanya Biasa Saja?
-    </h2>
-
-    <p class="text-gray-600 mt-6 text-lg leading-relaxed">
-      Banyak makanan modern kehilangan cita rasa asli Indonesia.
-      Kami hadir dengan rempah autentik, kualitas premium,
-      dan tampilan modern yang bikin ketagihan.
-    </p>
-
-  </div>
-
-</section>
-
-
 <!-- MENU -->
-<section id="menu" class="py-24 bg-[#fff8f0]">
+<section id="menu" class="py-24 bg-white">
 
   <div class="max-w-7xl mx-auto px-6">
 
@@ -249,12 +239,8 @@
 
     <div class="grid md:grid-cols-4 gap-8 mt-16">
 
-      <!-- AYAM BAKAR -->
-      <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover relative">
-
-        <span class="absolute top-4 left-4 bg-red-500 text-white text-sm px-4 py-1 rounded-full z-10">
-          Best Seller
-        </span>
+      <!-- CARD -->
+      <div class="bg-[#fff8f0] rounded-3xl overflow-hidden shadow-lg card-hover">
 
         <img
           src="https://cdn.idntimes.com/content-images/community/2022/02/cara-membuat-ayam-bakar-empuk-bumbu-meresap-resep-ayam-bakar-empuk-resep-baceman-ayam-9cde86371d7fc78c91ae80a6ffab250e-4146dd47f176123763028518fe5664b0.jpg"
@@ -292,8 +278,8 @@
       </div>
 
 
-      <!-- NASI GORENG -->
-      <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover">
+      <!-- CARD -->
+      <div class="bg-[#fff8f0] rounded-3xl overflow-hidden shadow-lg card-hover">
 
         <img
           src="https://img.freepik.com/premium-photo/photo-nasi-goreng-with-classic-indonesian-fried-rice-dish_763111-17250.jpg?w=2000"
@@ -331,8 +317,8 @@
       </div>
 
 
-      <!-- SATE -->
-      <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover">
+      <!-- CARD -->
+      <div class="bg-[#fff8f0] rounded-3xl overflow-hidden shadow-lg card-hover">
 
         <img
           src="https://static.vecteezy.com/system/resources/previews/027/541/941/large_2x/an-indonesian-sate-ayam-on-top-of-wooden-table-free-photo.jpg"
@@ -370,8 +356,8 @@
       </div>
 
 
-      <!-- SOTO -->
-      <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover">
+      <!-- CARD -->
+      <div class="bg-[#fff8f0] rounded-3xl overflow-hidden shadow-lg card-hover">
 
         <img
           src="https://sifu.unileversolutions.com/image/id-ID/recipe-topvisual/2/1260-709/soto-ayam-50217424.jpg"
@@ -415,79 +401,6 @@
 </section>
 
 
-<!-- KEUNGGULAN -->
-<section id="keunggulan" class="py-24 bg-white">
-
-  <div class="max-w-7xl mx-auto px-6">
-
-    <div class="text-center">
-
-      <span class="text-amber-700 font-bold uppercase tracking-widest">
-        Keunggulan
-      </span>
-
-      <h2 class="text-4xl font-bold mt-4">
-        Kenapa Harus Pilih Kami?
-      </h2>
-
-    </div>
-
-
-    <div class="grid md:grid-cols-4 gap-8 mt-16">
-
-      <div class="bg-[#fff8f0] rounded-3xl p-8 shadow-lg text-center">
-        <div class="text-5xl">🍛</div>
-        <h3 class="font-bold text-2xl mt-5">Rasa Autentik</h3>
-      </div>
-
-      <div class="bg-[#fff8f0] rounded-3xl p-8 shadow-lg text-center">
-        <div class="text-5xl">🔥</div>
-        <h3 class="font-bold text-2xl mt-5">Fresh Cook</h3>
-      </div>
-
-      <div class="bg-[#fff8f0] rounded-3xl p-8 shadow-lg text-center">
-        <div class="text-5xl">🚚</div>
-        <h3 class="font-bold text-2xl mt-5">Delivery Cepat</h3>
-      </div>
-
-      <div class="bg-[#fff8f0] rounded-3xl p-8 shadow-lg text-center">
-        <div class="text-5xl">⭐</div>
-        <h3 class="font-bold text-2xl mt-5">Kualitas Premium</h3>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- PROMO -->
-<section class="py-20 gradient-bg text-white">
-
-  <div class="max-w-6xl mx-auto px-6 text-center">
-
-    <h2 class="text-5xl font-bold">
-      🎉 Promo Spesial Minggu Ini
-    </h2>
-
-    <p class="mt-6 text-xl text-orange-100">
-      Diskon 20% untuk paket keluarga dan pemesanan di atas 5 porsi.
-    </p>
-
-    <a
-      href="https://wa.me/6281234567890"
-      target="_blank"
-      class="inline-block mt-8 bg-white text-amber-700 px-8 py-4 rounded-full font-bold hover:bg-orange-100 transition">
-
-      Klaim Promo
-    </a>
-
-  </div>
-
-</section>
-
-
 <!-- GALLERY -->
 <section id="gallery" class="py-24 bg-[#fff8f0]">
 
@@ -507,20 +420,66 @@
 
     <div class="grid md:grid-cols-3 gap-6 mt-14">
 
-      <img
-        src="https://comm2.tribunnews.com/travel/foto/bank/images/Caping-Resto-Borobudur-satu-tempat-makan-siang-dekat-Candi-Borobudur-liburan-di-Magelang.jpg"
-        class="rounded-3xl h-72 w-full object-cover hover:scale-105 transition duration-300"
-      />
+      <div class="gallery-hover">
+        <img
+          src="https://comm2.tribunnews.com/travel/foto/bank/images/Caping-Resto-Borobudur-satu-tempat-makan-siang-dekat-Candi-Borobudur-liburan-di-Magelang.jpg"
+          class="h-72 w-full object-cover"
+        />
+      </div>
 
-      <img
-        src="https://nibble-images.b-cdn.net/nibble/original_images/outdoor_150_garden_d5bf017010.jpeg"
-        class="rounded-3xl h-72 w-full object-cover hover:scale-105 transition duration-300"
-      />
+      <div class="gallery-hover">
+        <img
+          src="https://nibble-images.b-cdn.net/nibble/original_images/outdoor_150_garden_d5bf017010.jpeg"
+          class="h-72 w-full object-cover"
+        />
+      </div>
 
-      <img
-        src="https://media.istockphoto.com/photos/waiters-carrying-plates-with-food-in-a-restaurant-picture-id833113704?k=20&m=833113704&s=170667a&w=0&h=rxYSEFzpND3AlTr5o-UwFH8akCOXMauMjEfoRt6FTvc="
-        class="rounded-3xl h-72 w-full object-cover hover:scale-105 transition duration-300"
-      />
+      <div class="gallery-hover">
+        <img
+          src="https://media.istockphoto.com/photos/waiters-carrying-plates-with-food-in-a-restaurant-picture-id833113704?k=20&m=833113704&s=170667a&w=0&h=rxYSEFzpND3AlTr5o-UwFH8akCOXMauMjEfoRt6FTvc="
+          class="h-72 w-full object-cover"
+        />
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FAQ -->
+<section id="faq" class="py-24 bg-white">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="text-center">
+
+      <span class="text-amber-700 font-bold uppercase tracking-widest">
+        FAQ
+      </span>
+
+      <h2 class="text-4xl font-bold mt-4">
+        Pertanyaan yang Sering Ditanyakan
+      </h2>
+
+    </div>
+
+    <div class="mt-14 space-y-6">
+
+      <div class="bg-[#fff8f0] p-6 rounded-3xl shadow">
+        <h3 class="font-bold text-xl">Apakah bisa delivery?</h3>
+        <p class="text-gray-600 mt-3">
+          Ya, kami melayani delivery area Jawa Tengah dan sekitarnya.
+        </p>
+      </div>
+
+      <div class="bg-[#fff8f0] p-6 rounded-3xl shadow">
+        <h3 class="font-bold text-xl">Apakah menerima catering?</h3>
+        <p class="text-gray-600 mt-3">
+          Tentu, kami menerima pesanan catering untuk acara keluarga dan kantor.
+        </p>
+      </div>
 
     </div>
 
@@ -530,7 +489,7 @@
 
 
 <!-- TESTIMONI -->
-<section id="testimoni" class="py-24 bg-white">
+<section id="testimoni" class="py-24 bg-[#fff8f0]">
 
   <div class="max-w-7xl mx-auto px-6">
 
@@ -548,19 +507,19 @@
 
     <div class="grid md:grid-cols-3 gap-8 mt-16">
 
-      <div class="bg-[#fff8f0] p-8 rounded-3xl shadow">
+      <div class="bg-white p-8 rounded-3xl shadow">
         <p class="text-gray-600 leading-relaxed">
           “Rasa makanannya benar-benar khas Indonesia.”
         </p>
       </div>
 
-      <div class="bg-[#fff8f0] p-8 rounded-3xl shadow">
+      <div class="bg-white p-8 rounded-3xl shadow">
         <p class="text-gray-600 leading-relaxed">
           “Pelayanan cepat dan cocok untuk acara keluarga.”
         </p>
       </div>
 
-      <div class="bg-[#fff8f0] p-8 rounded-3xl shadow">
+      <div class="bg-white p-8 rounded-3xl shadow">
         <p class="text-gray-600 leading-relaxed">
           “Modern tapi tetap terasa tradisional.”
         </p>
@@ -634,6 +593,10 @@
 
   </div>
 
+  <div class="border-t border-white/10 mt-10 pt-6 text-center text-orange-200 text-sm">
+    © 2026 Sitra Rasa Nusantara. All Rights Reserved.
+  </div>
+
 </footer>
 
 
@@ -643,14 +606,7 @@
   target="_blank"
   class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl z-50 transition duration-300">
 
-  <svg xmlns="http://www.w3.org/2000/svg"
-    width="28"
-    height="28"
-    fill="currentColor"
-    viewBox="0 0 16 16">
-
-    <path d="M13.601 2.326A7.854 7.854 0 0 0 8.004 0C3.58 0 .003 3.577.003 8c0 1.41.368 2.787 1.066 4.004L0 16l4.104-1.053A7.963 7.963 0 0 0 8.004 16c4.423 0 8-3.577 8-8a7.95 7.95 0 0 0-2.403-5.674z"/>
-  </svg>
+  💬
 
 </a>
 
